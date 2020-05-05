@@ -40,7 +40,9 @@ export default function Logon() {
           <input placeholder="Sua ID" value={id} onChange={e => setId(e.target.value)} />
           <button className="button" type="submit">Entrar</button>
 
-          <Link className="back-link" to="/register"><FiLogIn size={16} color="#e02041" /> Não tenho cadastro</Link>
+          <Link className="back-link" to="/register">
+            <FiLogIn size={16} color="#e02041" /> Não tenho cadastro
+          </Link>
         </form>
       </section>
 
